@@ -1,0 +1,52 @@
+.input-form {
+    /* outline: 5px dotted green; */
+    width: 600px;
+    height: 400px;
+    /* padding: 150px; */
+}
+.offscreen {
+    /* animation-duration: 2.9s; */
+    /* animation-name: bouncein; */
+    /* animation-direction: reverse; */
+    display: none;
+}
+.header {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    margins: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 100px;
+}
+
+.instructions {
+    animation-duration: 0.9s;
+    animation-name: bouncein;
+    transition-timing-function: ease-in-out;
+    /* overflow-wrap: break-word; */
+}
+
+@keyframes bouncein {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -15px);
+    }
+    60% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}

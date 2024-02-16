@@ -1,0 +1,9 @@
+#+title: Lol
+
+#+begin_src javascript
+<h1>This is my login form</h1>
+<Login/>
+<h2>This is my fucking button</h2>
+<Button onClick={activatecock} variant="primary" href="#home"> like neat</Button>{' '}
+<MyDate/>
+#+end_src
